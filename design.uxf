@@ -1,0 +1,53 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>640</x><y>0</y><w>230</w><h>140</h></coordinates><panel_attributes>main
+--
+create arcade window
+create starting view
+show starting view
+run arcade</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>380</y><w>300</w><h>170</h></coordinates><panel_attributes>People
+--
+people = [person, person, etc]
+text_total_people = get_people_num()
+text_people_list = get_people_details()
+--
+get_people_num()
+get_people_details()
+generate_people(num)
+get_people_choice(num)
+-..
+text_total_people.on_draw()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>740</y><w>330</w><h>280</h></coordinates><panel_attributes>Person
+--
+name = [] (first, middle, last) 
+description = [] (generated randomly)
+background = []
+attributes = [str, dex, vit, cha] (generated pseudo-randomly)
+traits = []
+occupation = []
+injuries = []
+relationships = dict() (name: relationship)
+--
+name getter, setter
+description getter, setter
+attributes getter, setter
+traits getter, setter
+injuries getter, setter
+-..
+generate name()
+generate description()
+generate atributes()
+generate traits()
+generate injuries()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>540</y><w>180</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>160;10;10;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>740</y><w>330</w><h>280</h></coordinates><panel_attributes>People Text
+--
+num_people</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>540</y><w>240</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;220;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>1240</y><w>210</w><h>60</h></coordinates><panel_attributes>Random Person Data
+--
+json stuff</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>860</x><y>356</y><w>100</w><h>30</h></coordinates><panel_attributes>Looper
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>1010</y><w>200</w><h>250</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>180;10;10;230</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1830</x><y>350</y><w>80</w><h>30</h></coordinates><panel_attributes>Views</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>130</y><w>1120</w><h>240</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;1100;220</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2950</x><y>570</y><w>100</w><h>30</h></coordinates><panel_attributes>SimpleClass</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1430</x><y>510</y><w>220</w><h>60</h></coordinates><panel_attributes>WorldView
+--
+Should show a large world map
+Should accept a single object to render
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1750</x><y>510</y><w>230</w><h>60</h></coordinates><panel_attributes>DungeonView
+--
+Should show a map of POI on world map
+Should accept a single object to render</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2060</x><y>510</y><w>200</w><h>50</h></coordinates><panel_attributes>Menu View
+--
+Should show menu options</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1530</x><y>369</y><w>360</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>340;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>1860</x><y>369</y><w>320</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;300;140</additional_attributes></element><element><id>Relation</id><coordinates><x>1860</x><y>369</y><w>30</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element></diagram>

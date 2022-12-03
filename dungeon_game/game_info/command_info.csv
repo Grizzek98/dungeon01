@@ -1,0 +1,7 @@
+command_name,a1,a2,a3,a4,a5,a6
+inventory,i,inv,None,None,None,None
+look,l,see,observe,view,None,None
+north,up,n,None,None,None,None
+west,right,w,None,None,None,None
+south,down,s,None,None,None,None
+east,left,e,None,None,None,None

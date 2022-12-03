@@ -1,0 +1,3 @@
+mob_type,name,max_health,str,dex,vit,cha,mag
+player,default_player,20,5,5,5,5,5
+enemy,zombie,10,2,2,2,2,2

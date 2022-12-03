@@ -1,0 +1,34 @@
+{
+    "room": [
+        {
+            "name": "entrance",
+            "description": "you are standing in the entrance. it's... entrancy in here.",
+            "up": "great hall",
+            "right": "barracks",
+            "down": "None",
+            "left": "None",
+            "contents": [
+                "stuff",
+                "things"
+            ]
+        },
+        {
+            "name": "great hall",
+            "description": "the great hall",
+            "up": "None",
+            "right": "None",
+            "down": "entrance",
+            "left": "None",
+            "contents": []
+        },
+        {
+            "name": "barracks",
+            "description": "the barracks",
+            "up": "None",
+            "right": "entrance",
+            "down": "None",
+            "left": "None",
+            "contents": []
+        }
+    ]
+}
